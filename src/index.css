@@ -5,11 +5,20 @@
 .aside {
   width: 350px !important;
   transition: 0.5s;
+  height: 100vh;
 }
 .aside-close {
   width: 70px !important;
 }
 
+/* card  */
+.card:hover .item-link {
+  opacity: 0.5 !important;
+  right: 0 !important;
+}
+.card .item-link:hover {
+  opacity: 1 !important;
+}
 /* mobile  */
 @media (max-width: 451px) {
   .aside-close {

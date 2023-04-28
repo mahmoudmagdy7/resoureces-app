@@ -1,15 +1,15 @@
 import React, { useEffect, useState } from "react";
-import Colors from "./Colors";
 
-export default function Home() {
+export default function Home({ toggleAside }) {
   return (
     <>
       <section className="mx-5 flex justify-center w-full">
-        <div className="">
-          <h1 className=" text-4xl mt-5">
-            Resources app | made with
+        <div className=" text-center">
+          <h1 className=" text-xl mt-5">Developer Resources App</h1>
+          <p>
+            made with
             <span className=" px-2 fas fa-heart text-red-500 inline-block"></span>
-          </h1>
+          </p>
         </div>
       </section>
     </>

@@ -3,7 +3,7 @@ import React from "react";
 export default function Navbar({ toggleAside }) {
   return (
     <div>
-      <nav className=" bg-gray-50 dark:bg-gray-900 dark:border-gray-700">
+      <nav className=" bg-gray-50 dark:bg-gray-900 dark:border-gray-700 fixed w-full z-50 top-0">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <div className="flex items-center">
             <h1 className=" font-semibold text-lg ">Resources app</h1>
